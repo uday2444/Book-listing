@@ -1,0 +1,62 @@
+body{
+    background-color: antiquewhite;
+}
+
+#root{
+    background-color: bisque;
+}
+.global-wrapper{
+    text-align: center;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.input-group{
+    display: flex;
+    padding: 0 200px;
+    flex-wrap: nowrap;
+   /* width: 50%; */
+   
+    
+}
+
+/* gallery style */
+
+.gallery-wrapper{
+    background-color: bisque;
+}
+
+.book{
+    position: relative;
+    display: inline-block;
+    
+    width: 220px;
+    height: 220px;
+    text-align: left;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.book-image{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.book-text{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 214px;
+    text-align: center;
+    opacity: 0.75;
+    margin-left: 3px;
+    bottom: 0;
+    padding: 10px;
+}
